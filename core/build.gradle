@@ -1,0 +1,19 @@
+apply plugin: "java"
+
+targetCompatibility = 1.8
+sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+sourceSets.test.java.srcDirs = ["/test"]
+
+
+dependencies{
+    implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+    implementation "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+    implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+    implementation "net.dermetfan.libgdx-utils:libgdx-utils:0.13.4"
+    implementation "net.dermetfan.libgdx-utils:libgdx-utils-box2d:0.13.4"
+    testImplementation 'junit:junit:4.12'
+    testImplementation "org.mockito:mockito-core:2.13.0"
+}

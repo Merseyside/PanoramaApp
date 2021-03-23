@@ -1,0 +1,19 @@
+## Java
+*.iml
+.gradle
+.idea
+.externalNativeBuild
+*.ipr
+*.iws
+gen/
+debug/
+release/
+build/
+/local.properties
+gradle/
+/gradle.properties
+/gradlew
+/gradlew.bat
+/app/project.properties
+/findbugs-android-exclude.xml
+*.apk

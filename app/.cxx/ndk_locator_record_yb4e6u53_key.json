@@ -1,0 +1,10 @@
+{
+  "ndkDirProperty": "/home/ivan/Android/Sdk/ndk/16.1.4479499",
+  "sdkFolder": "/home/ivan/Android/Sdk",
+  "sideBySideNdkFolderNames": [
+    "16.1.4479499",
+    "21.4.7075529",
+    "21.1.6352462",
+    "20.0.5594570"
+  ]
+}
